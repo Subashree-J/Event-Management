@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Event Management - Venue</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+		h1 {
+			text-align: center;
+			font-size: 36px;
+			margin-top: 0;
+			color: #c0392b;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.event-details {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.event-details div {
+			flex-basis: 48%;
+		}
+		.event-details img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 5px;
+			margin-top: 20px;
+		}
+		.event-details h2 {
+			margin-top: 0;
+			color: #c0392b;
+		}
+		.event-details p {
+			margin-bottom: 0;
+			font-weight: bold;
+		}
+		button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			width: 100%;
+		}
+		button:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+<form action="event.html" method="post">
+	<div class="container">
+		<h1>Event Venue</h1>
+		<div class="event-details">
+			<div>
+				<h2>Event Information</h2>
+				<p>Date: April 15, 2023</p>
+				<p>Time: 11:00 AM - 2:00 PM</p>
+				<p>Mode: Online</p>
+				<p></p>
+			</div>
+			<div>
+				<img src="venue.jpg" alt="venue" width="350" height="400">
+			</div>
+		</div>
+		<p></p>
+		<button type="submit">Home</button>	
+	</div>
+	</form>
+</html>
